@@ -11,7 +11,11 @@
 </head>
 
 <body>
-    <h2>In which I attempt to create a calculator whilst imbibing moderate quantities of alcohol.</h2>
+
+    <div id="title">
+        <h1>Drunkulator</h1>
+        <h4><i>In which I attempt to create a calculator whilst imbibing moderate quantities of alcohol.</i></h4>
+    </div>
     <div id="calculator">
         <div id="display">0</div>
         <div id="btn-rows">
@@ -29,18 +33,18 @@
             </div>
             <div class="row">
                 <button onclick="press(1);">1</button>
-                <button class="num-btn" onclick="press(2);">2</button>
-                <button class="num-btn" onclick="press(3);">3</button>
-                <button class="operator" onclick="setOP('-');">−</button>
+                <button onclick="press(2);">2</button>
+                <button onclick="press(3);">3</button>
+                <button onclick="setOP('-');">−</button>
             </div>
             <div class="row">
-                <button class="other-btns" onclick="clr();">C</button>
-                <button class="num-btn" onclick="press(0);">0</button>
-                <button class="other-btns" onclick="press('.');">.</button>
-                <button class="operator" onclick="setOP('+');">+</button>
+                <button onclick="clr();">C</button>
+                <button onclick="press(0);">0</button>
+                <button onclick="press('.');">.</button>
+                <button onclick="setOP('+');">+</button>
             </div>
             <div class="row">
-                <button class="other-btns" id="equals" onclick="calculate()">=
+                <button id="equals" onclick="calculate()">=
             </div>
         </div>
     </div>

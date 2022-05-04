@@ -1,8 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+}
+#title  {
+    margin: 0px 100px;
+    padding: 20px;
+}
 #calculator {
     display: flex;
     background-color: black;
     color: white;
-    width: 800px;
+    width: 700px;
+    margin: 0px 100px;
 }
 button {
     background-color: #f20089;
@@ -15,11 +26,12 @@ button {
     padding: 20px;
     margin-left: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 #display    {
     margin: 10px;
     border: 1px solid red;
+    width: 30px;
 }
 #btn-rows   {
     display: flex;
