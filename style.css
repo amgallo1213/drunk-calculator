@@ -14,6 +14,7 @@ body{
     color: white;
     width: 700px;
     margin: 0px 100px;
+    padding: 10px; 
 }
 .number, .operator {
     background-color: #f20089;
