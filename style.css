@@ -11,10 +11,10 @@ body{
 #calculator {
     /* display: flex; */
     background-color: black;
-    color: white;
     width: 500px;
     margin: 0px 100px;
-    padding: 10px; 
+    padding: 10px;
+    border-radius: 5%; 
 }
 .number, .operator {
     background-color: #f20089;
